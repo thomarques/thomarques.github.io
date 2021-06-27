@@ -1,0 +1,22 @@
+<!--
+---
+layout: default
+title: People Involved in the Emerson Collective
+---
+-->
+
+<h2>Novela People</h2>
+
+<!-- People -->
+{% assign people = site.data.people %}
+{% assign people = people | sort:"Name" %}
+
+<!-- Document -->
+
+{% for person in people %}
+
+<ul>
+<li><strong>{{ person.Name }}</strong> ({{ person.Organization }}, {{ person.Role }})</li>
+</ul>
+
+{% endfor %}

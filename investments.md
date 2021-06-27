@@ -1,0 +1,22 @@
+<!-- 
+---
+layout: default
+title: The Emerson Collective's Investments
+---
+-->
+
+<h2>Novela Investments</h2>
+
+<!-- Organizations -->
+{% assign investments = site.data.investments %}
+{% assign investments = investments | sort:"Name" %}
+
+<!-- Document -->
+
+{% for investment in investments %}
+
+<ul>
+<li><strong>{{ investment.Name }}</strong> ({{ investment.Date }}, {{ investment.Notes }})</li>
+</ul>
+
+{% endfor %}
