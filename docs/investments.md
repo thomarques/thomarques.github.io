@@ -1,7 +1,9 @@
+<!-- 
 ---
 layout: default
 title: The Emerson Collective's Investments
 ---
+-->
 
 <h2>The Emerson Collective's Investments</h2>
 

@@ -1,7 +1,9 @@
+<!--
 ---
 layout: default
 title: People Involved in the Emerson Collective
 ---
+-->
 
 <!-- People -->
 {% assign people = site.data.people %}

@@ -1,9 +1,11 @@
+<!-- 
 ---
 layout: default
 title: The Emerson Collective Financial and Social Network
 ---
+-->
 
-<h2>The Emerson Collective Network</h2>
+<h2>Novela Picks</h2>
 
 <ul>
   <li><a href="people.html">People</a></li>
