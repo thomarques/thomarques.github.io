@@ -1,9 +1,7 @@
-<!-- 
 ---
 layout: default
-title: The Emerson Collective Financial and Social Network
+title: Novela Crypto
 ---
--->
 
 <h2>Novela Crypto</h2>
 
