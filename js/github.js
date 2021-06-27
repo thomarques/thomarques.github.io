@@ -481,7 +481,7 @@
         if(arguments.length === 2 && typeof arguments[1] === "function") {
           cb = newBranch;
           newBranch = oldBranch;
-          oldBranch = "master";
+          oldBranch = "main";
         }
         this.getRef("heads/" + oldBranch, function(err,ref) {
           if(err && cb) return cb(err);
